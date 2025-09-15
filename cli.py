@@ -36,6 +36,7 @@ def cli_homepage():
         print("Report Generation Complete")
     elif user_input == "4":
         print("Exiting...")
+        exit()
     else:
         print("Invalid Input")
         cli_homepage()
