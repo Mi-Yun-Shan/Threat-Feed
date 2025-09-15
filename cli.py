@@ -1,3 +1,21 @@
+def generate_csv():
+    """
+        - Gather RSS feeds from news sites
+        - Retrieve today's articles
+        - Gather their: Publisher, Title, summary
+        - Put the entries into a CSV file
+    """
+    pass
+
+
+def generate_report():
+    """
+        - Pass in CSV
+        - Return summary of today's landscape
+    """
+    pass
+
+
 def cli_homepage():
     print("Please Select an Option:\n")
     print("\t1. Generate threat_feed.csv Only")
